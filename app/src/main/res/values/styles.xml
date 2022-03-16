@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Dialog.FullScreen" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.ButtonStyle.ButtonStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- ProgressBar TkYellow -->
+    <style name="ProgessBar_TkYellow" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">#f9c601</item>
+    </style>
+
+    <style name="AppTheme.Button.Warning" parent="AppTheme.ButtonStyle.ButtonStyle">
+        <item name="android:background">@drawable/btn_warning_selector</item>
+        <item name="android:textColor">@drawable/btn_text_dark_selector</item>
+    </style>
+
+</resources>
+
